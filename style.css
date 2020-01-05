@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 67.5%;
+    font-family: sans-serif;
+    color: white;
+}
+
+body {
+    background-color: darkslategray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+h1 {
+    margin: 2rem 0 0 0;
+    font-size: 3rem;
+    padding: 1rem;
+}
+
+h3 {
+    color: #dad9cd;
+    font-size: 2rem;
+    padding: 1rem 1rem 0.3rem 0;
+    border-bottom: 2px solid whitesmoke;
+}
+
+#canvas {
+    border: 1px solid rgba(245, 243, 243, 0.2);
+    background-color: #1f1e1d;
+    margin: 10rem 50vw;
+    -webkit-box-shadow: 4px 4px 17px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 4px 17px -4px rgba(0,0,0,0.75);
+    box-shadow: 4px 4px 17px -4px rgba(0,0,0,0.75);
+}
